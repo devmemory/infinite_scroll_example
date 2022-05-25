@@ -1,0 +1,32 @@
+.div_main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_main>div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.div_imgbox {
+    width: 200px;
+    margin: 10px;
+    border: 1px solid #e4e4e4;
+    border-radius: 12px;
+    font-size: 1em;
+}
+
+.div_imgbox>img {
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.div_imgbox>p {
+    text-align: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 0 8px 0 8px;
+}
