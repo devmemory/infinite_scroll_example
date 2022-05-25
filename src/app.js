@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import './app.css'
 
 function App() {
-    const [data, _setData] = useState({list: [] })
+    const [data, _setData] = useState({ list: [] })
 
     // eventListener에서 state접근 가능하도록
     const stateRef = useRef(data)
@@ -43,7 +43,7 @@ function App() {
     }
 
     const handleScroll = async () => {
-        const current = window.scrollY
+        const current = document.documentElement.scrollTop
         const max = document.documentElement.scrollHeight - document.documentElement.clientHeight
 
         let pageModel = stateRef.current.page
