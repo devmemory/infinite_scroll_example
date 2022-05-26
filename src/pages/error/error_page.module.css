@@ -1,0 +1,23 @@
+.div_error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    height: 100vh;
+}
+
+.div_error_btn {
+    display: inline-block;
+    text-align: end;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 12px;
+    background-color: #2196F3;
+    cursor: pointer;
+}
+
+.div_error_btn:hover {
+    background-color: white;
+    color: #2196F3;
+}
